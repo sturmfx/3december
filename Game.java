@@ -246,7 +246,7 @@ public class Game extends JFrame implements KeyListener
                         g.clearRect(0, 0, width, height);
                         g.setColor(color);
                         g.fillOval((int) x - p_width / 2, (int) y - p_height / 2, p_width, p_height);
-                        g.setColor(Color.BLACK);
+                        g.setColor(Color.RED);
                         g.drawString(String.valueOf(hp), (int) x, (int) y);
                         NPC.draw_all(g);
                         Bullet.draw_all(g);
